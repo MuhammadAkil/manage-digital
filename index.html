@@ -14,8 +14,137 @@
 </head>
 
 <body>
-  <h1>This is vite </h1>
+  <header class="primary-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#"><img src="/public/images/logo.svg" alt="Manage"></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+          <img class="icon-hamburger" src="public/images/icon-hamburger.svg" aria-hidden="true" alt="">
+          <img class="icon-close" src="public/images/icon-close.svg" aria-hidden="true" alt="">
+          <span class="visually-hidden">Menu</span>
+        </button>
 
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul rule="list" aria-label="Primary" class="nav-list">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="button" style="display: none;">Get Started</button>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <section class="padding-block-700">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <h1 class="fs-primary-heading fw-bold">
+              Bring every togather to build better products.
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum inventore eveniet in rerum
+              voluptas deserunt totam reiciendis, ducimus minus tempora alias! Quos, quibusdam itaque.</p>
+            <button class="button">Get Started</button>
+          </div>
+          <div>
+            <img src="/public/images/illustration-intro.svg" alt="main">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="padding-block-700">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <h1 class="fs-primary-heading fw-bold">
+              What's different About Manage.
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cum inventore eveniet in rerum
+              voluptas deserunt totam reiciendis, ducimus minus tempora alias! Quos, quibusdam itaque.</p>
+          </div>
+          <div>
+            <ul class="numbered-items " role="list">
+              <li>
+                <h3 class="fs-600 fw-bold">Advance Build in store</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis molestiae hic libero est
+                  eius quisquam nihil sapiente. Laudantium, voluptas.</p>
+              </li>
+              <li>
+                <h3 class="fs-600 fw-bold">Everything you need in one place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis molestiae hic libero est
+                  eius quisquam nihil sapiente. Laudantium, voluptas.</p>
+              </li>
+              <li>
+                <h3 class="fs-600 fw-bold">Advance Build in store </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veritatis molestiae hic libero
+                  est
+                  eius quisquam nihil sapiente. Laudantium, voluptas.</p>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="carousel padding-block-700">
+      <h2 class="fs-primary-heading fw-bold">What thay have said.</h2>
+      <!-- Carosel Here -->
+      <button class="button">Get Started</button>
+    </section>
+    <section class="cta | bg-accent-400 text-netural-100 padding-block-700">
+      <div class="container">
+        <div class="even-columns">
+          <div>
+            <p class="fs-secondary-heading fw-bold">
+              Simply how your team work today.
+            </p>
+          </div>
+          <div><button class="button" data-type="inverted">Get Started</button></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="padding-block-700 bg-netural-900 text-netural-100">
+    <div class="container">
+      <div class="even-columns">
+        <div>
+          <a href="#">
+            <img src="/public/images/logo.svg" alt="Manage">
+          </a>
+          <ul role="list" aria-label="social-links">
+            <li><a aria-label="facebook" href="#">FaceBook</a></li>
+            <li><a aria-label="youtube" href="#">Youtube</a></li>
+            <li><a aria-label="instagram" href="#">Innstagram</a></li>
+            <li><a aria-label="twitter" href="#">Twitter</a></li>
+          </ul>
+        </div>
+        <div>
+          <nav class="footer-nav">
+            <ul role="list" aria-label="Footer">
+              <li>Home</li>
+              <li>Price</li>
+              <li>Products</li>
+              <li>About us</li>
+              <li>Careers</li>
+              <li>Community</li>
+              <li>Privacy policy</li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <form action="">
+            <input type="email" />
+            <button class="button">Go</button>
+            <p>Copyright 2020. All rights reserved</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="/main.js"></script>
 </body>
 
